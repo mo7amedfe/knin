@@ -229,6 +229,9 @@ a{
     background-size: cover;
     /* height: 300vh; */
 }
+.navbar-toggler{
+    width: 25%;
+}
     #container{
         position: relative;
         top: -15%;
@@ -242,9 +245,18 @@ a{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .index {
+        background-image: url(../img/responsive2.jpg);
+        width: 100%;
+        background-size: cover;
+        /* height: 300vh; */
+    }
     #container{
         width: 30%;
         height: 75%;
+    }
+    .navbar-toggler{
+        width: 25%;
     }
     #text {
         font-size: 40px !important;
