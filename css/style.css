@@ -8,9 +8,6 @@ body {
 
 }
 
-.navbar-brand{
-    font-family: var();
-}
 .index {
     background-image: url(../img/IMG_20230302_153942.jpg);
     width: 100%;
@@ -25,7 +22,9 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     height: 100vh;
 }
-
+.navbar-brand{
+    font-size: 30px;
+}
 .navbar {
     position: fixed;
     top: 0;
@@ -204,6 +203,7 @@ a{
 .last{
     /* width: 100%; */
     padding: 3%;
+    background-color: rgba(116, 116, 116, 0.5);
   
 }
 .links{
@@ -215,9 +215,13 @@ a{
 .links a i {
     font-size: 50px;
     cursor: pointer;
-    color: #000000;
+    color: #fff;
 }
+.cont3{
+    border: #000000 solid 2px;
+    background-color: rgba(0, 0, 0, 0.804);
 
+}
 
 /*-------------------------------------------*/
 /* Extra small devices (phones, 600px and down) */
@@ -230,9 +234,15 @@ a{
     /* height: 300vh; */
 }
 .navbar-toggler{
-    width: 25%;
+    height: 60px;
+    width: 60px;
+    /* padding: 10px; */
 }
-    #container{
+.navbar-toggler-icon{
+    width: 100%;
+    font-size: 40px;
+}
+   #container{
         position: relative;
         top: -15%;
         width: 30%;
@@ -256,7 +266,13 @@ a{
         height: 75%;
     }
     .navbar-toggler{
-        width: 25%;
+        height: 60px;
+        width: 60px;
+        /* padding: 10px; */
+    }
+    .navbar-toggler-icon{
+        width: 100%;
+        font-size: 40px;
     }
     #text {
         font-size: 40px !important;
@@ -266,6 +282,12 @@ a{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     
+.index {
+    background-image: url(../img/IMG_20230302_153942.jpg);
+    width: 100%;
+    background-size: cover;
+    /* height: 300vh; */
+}
 #container {
     margin-top:5%;
 	text-align: center;
@@ -288,6 +310,12 @@ a{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     
+.index {
+    background-image: url(../img/IMG_20230302_153942.jpg);
+    width: 100%;
+    background-size: cover;
+    /* height: 300vh; */
+}
 #container {
     margin-top:5%;
 	text-align: center;
@@ -318,6 +346,12 @@ a{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+    .index {
+        background-image: url(../img/IMG_20230302_153942.jpg);
+        width: 100%;
+        background-size: cover;
+        /* height: 300vh; */
+    }
     #container {
         
         margin-top:5%;
