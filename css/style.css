@@ -308,7 +308,7 @@ a{
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1081px) {
     
 .index {
     background-image: url(../img/IMG_20230302_153942.jpg);
